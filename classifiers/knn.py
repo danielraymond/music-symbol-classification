@@ -169,7 +169,6 @@ def run_knn(
         output_dir
         / "confusion_matrices"
         / f"spc-{samples_per_class}_num-aug-{num_augmentations}_average_confusion_matrix.png",
-        save_values=True,
     )
 
     if write_results_to_file:

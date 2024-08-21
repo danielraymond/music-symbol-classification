@@ -84,7 +84,7 @@ def run_pretrain(
     model_name += f"sw{sim_loss_weight}_"
     model_name += f"vw{var_loss_weight}_"
     model_name += f"cw{cov_loss_weight}"
-    encoder_filepath = output_dir / f"{model_name}_encoder_final.pt"
+    encoder_filepath = output_dir / f"{model_name}_encoder.pt"
 
     # 3) PRETRAINING
     logs_dict = pretrain_model(
