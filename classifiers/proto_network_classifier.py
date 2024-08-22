@@ -273,9 +273,9 @@ def run_proto(
     print(f"\tN-Query: {n_query}")
     print(f"\tNum Augmentations: {num_augmentations}")
     print(f"\tMean Train accuracy: {train_mean:.2f}%")
-    print(f"\Train standard deviation: {train_std:.2f}%")
+    print(f"\tTrain standard deviation: {train_std:.2f}%")
     print(f"\tMean Validation accuracy: {val_mean:.2f}%")
-    print(f"\Validation standard deviation: {val_std:.2f}%")
+    print(f"\tValidation standard deviation: {val_std:.2f}%")
 
     write_plot_results_proto(
         filepath=output_dir / "results.txt",
