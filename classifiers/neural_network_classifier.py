@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from models import CustomCNN
+from network.models import CustomCNN
 from sklearn.metrics import classification_report
 
 import config.data_config as config
